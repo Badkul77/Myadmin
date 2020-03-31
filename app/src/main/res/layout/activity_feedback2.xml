@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:text="Feedback"
+        android:fontFamily="@font/kanit_medium"
+        >
+    </TextView>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/email"
+            android:text="Email :"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+        </TextView>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/contact"
+        android:text="Comtact No. :"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </TextView>
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback :"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/feedback"
+        android:lines="6"
+        android:textSize="18dp">
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send return Email"
+        android:gravity="center"
+        android:textSize="20dp">
+
+    </TextView>
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailr"
+        android:lines="2"
+        android:layout_marginHorizontal="20dp">
+    </EditText>
+    <Button
+        android:id="@+id/btnsendmail"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Send"
+        android:paddingHorizontal="10dp">
+
+    </Button>
+</LinearLayout>

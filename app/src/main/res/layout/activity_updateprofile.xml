@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:background="@drawable/backicon"
+        android:layout_marginLeft="-170dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Users Profile"
+        android:textSize="28sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-32.5dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/ivProfileUpdate"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/profile"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+    <EditText
+        android:layout_marginTop="60dp"
+        android:id="@+id/etNameUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivProfileUpdate"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/etEmailUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNameUpdate"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/etCarNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEmailUpdate"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="Car Number"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/etCarModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCarNumber"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="Car Model"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbar"
+        android:layout_below="@id/etCarModel"
+        android:text="Update"
+        android:layout_gravity="center"
+        />
+
+
+
+
+</LinearLayout>
